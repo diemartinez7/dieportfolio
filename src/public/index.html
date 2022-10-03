@@ -11,178 +11,175 @@
 </head>
 
 <body>
+    
+        <!-- Header Section -->
 
-    <!-- Header Section -->
+        <header class="header">
+            <a href="" class="header__logo">Die Martinez</a>
 
-    <header class="header">
-        <a href="" class="header__logo">Die Martinez</a>
+            <nav class="nav" id="nav-menu">
+                <div class="nav__content bd-grid">
 
-        <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
+                    <div class="nav__perfil">
+                        <div class="nav__img">
+                            <img src="assets/logo2.png" alt="jopito">
+                        </div>
 
-        <nav class="nav" id="nav-menu">
-            <div class="nav__content bd-grid">
-
-                <ion-icon name="close-outline" class="nav__close" id="nav-close"></ion-icon>
-
-                <div class="nav__perfil">
-                    <div class="nav__img">
-                        <img src="assets/logo2.png" alt="jopito">
+                        <div>
+                            <a href="#" class="nav__name">Die Martinez</a>
+                            <span class="nav__profesion">Web designer</span>
+                        </div>
                     </div>
 
-                    <div>
-                        <a href="#" class="nav__name">Die Martinez</a>
-                        <span class="nav__profesion">Web designer</span>
+                    <div class="nav__menu">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a href="#home" class="nav__link">Home</a>
+                            </li>
+                            <li class="nav__item"><a href="#about-me" class="nav__link">About
+                                    Me</a></li>
+                            <li class="nav__item"><a href="#contact" class="nav__link">Contact</a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+
+                    <div class="nav__social">
+                        <a href="https://www.linkedin.com/in/diego-martinezpineiro" class="nav__social-icon"
+                            target="_blank">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                        <a href="https://github.com/diemartinez7" class="nav__social-icon" target="_blank">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                        <a href="https://www.instagram.com/diemartinez7" class="nav__social-icon" target="_blank">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                        <a href="https://www.facebook.com/diee.martinez" class="nav__social-icon" target="_blank">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
                     </div>
                 </div>
+            </nav>
+        </header>
 
-                <div class="nav__menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link">Home</a>
-                        </li>
-                        <li class="nav__item"><a href="#about-me" class="nav__link">About
-                                Me</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a>
-                        </li>
+        <!-- Ionicons -->
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
 
+        <!-- Main JS -->
+        <script src="assets/js/main.js"></script>
 
+        <!-- Home Section -->
+
+        <section class="page-home" id="home">
+            <div class="avatar">
+                <img class="circular--square" src="assets/img/portfolio-image2.jpeg" />
+            </div>
+            <div class="middle">
+                <span class="contain">
+                    <div class="text" data-text="Die Martinez">Die Martinez</div>
+                </span>
+
+            </div>
+            <span class="home-description">
+                <div>SOFTWARE DEVELOPER</div>
+            </span>
+
+        </section>
+
+        <!-- About me Section -->
+
+        <section class="page-description" id="about-me">
+            <img class="minion" src="assets/img/minion.jpg" alt="minion">
+            <div class="popup-content">
+                <div class="popup-text">
+                    I'm a cool guy born in Buenos Aires, Argentina
+                    but my whole family is originally from <strong>Uruguay</strong>, <br>
+                    which made me from the very beginning an <em>open and diverse man</em>. <br>
+                    Lately I've discovered my passion for the world of
+                    web development and sustentability. <br>
+                    I dream of blending both fields one day. <br>
+                    With Full-stack training, focused on back-end,
+                    I'm now looking for a junior dev position <br>
+                    to kick off my career and learn among professionals.
+                </div>
+            </div>
+            <div class="skills">
+                <div class="softskills">
+                    <h3 id="text-skills">Soft Skills</h3>
+                    <ul>
+                        <li>Communication skills</li>
+                        <li>Teamwork</li>
+                        <li>Self-learning</li>
+                        <li>Versatility</li>
+                        <li>Critical thinking</li>
+                        <li>Owning up to errors</li>
+                        <li>Empaty</li>
+                        <li>Negociation</li>
+                        <li>Open to receive feedback</li>
                     </ul>
                 </div>
 
-                <div class="nav__social">
-                    <a href="https://www.linkedin.com/in/diego-martinezpineiro" class="nav__social-icon"
-                        target="_blank">
-                        <ion-icon name="logo-linkedin"></ion-icon>
-                    </a>
-                    <a href="https://github.com/diemartinez7" class="nav__social-icon" target="_blank">
-                        <ion-icon name="logo-github"></ion-icon>
-                    </a>
-                    <a href="https://www.instagram.com/diemartinez7" class="nav__social-icon" target="_blank">
-                        <ion-icon name="logo-instagram"></ion-icon>
-                    </a>
-                    <a href="https://www.facebook.com/diee.martinez" class="nav__social-icon" target="_blank">
-                        <ion-icon name="logo-facebook"></ion-icon>
-                    </a>
+                <img src="assets/img/hard-skills-soft-skills.jpg" alt="hard and soft skills" id="hard-soft">
+                <div class="hardskills">
+                    <h3 id="text-skills">Hard Skills</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>TypeScript</li>
+                        <li>NodeJS</li>
+                        <li>Angular</li>
+                        <li>Java</li>
+                        <li>React</li>
+                        <li>Git</li>
+                    </ul>
                 </div>
             </div>
-        </nav>
-    </header>
+        </section>
 
-    <!-- Ionicons -->
-    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+        <!-- Contact Section -->
 
-    <!-- Main JS -->
-    <script src="assets/js/main.js"></script>
+        <section class="page-contact" id="contact">
+            <div class="contact-container">
 
-    <!-- Home Section -->
+                <div class="central-col">
 
-    <section class="page-home" id="home">
-        <div class="avatar">
-            <img class="circular--square" src="assets/img/portfolio-image2.jpeg" />
-        </div>
-        <div class="middle">
-            <span class="contain">
-                <div class="text" data-text="Die Martinez">Die Martinez</div>
+                    <h1>Contact me</h1>
+
+                    <form id="contact-form" action="https://formspree.io/f/xqkjqzzj" method="POST">
+                        <label for="name">Full name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+                        <label for="message">Message</label>
+                        <textarea rows="4" placeholder="Your Message" id="message" name="message" required></textarea>
+                        <button type="submit" id="submit" name="submit">Send</button>
+
+                    </form>
+                    <div id="error"></div>
+                    <div id="success-msg"></div>
+                </div>
+            </div>
+            <script src="script.js"></script>
+        </section>
+
+        <!-- Copyright Section-->
+
+        </footer>
+        <div class="foooter">
+            &copy;<span>2022 - 2023</span>
+            <span class="author" itemprop="copyrightHolder">
+                &nbsp;
+                <a href="https://diemartinez.com/">Die Martinez</a>
             </span>
-
+            <span class="license">
+                &nbsp;|&nbsp;
+                <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>
+            </span>
         </div>
-        <span class="home-description">
-            <div>SOFTWARE DEVELOPER</div>
-        </span>
-
-    </section>
-
-    <!-- About me Section -->
-
-    <section class="page-description" id="about-me">
-        <img class="minion" src="assets/img/minion.jpg" alt="minion">
-        <div class="popup-content">
-            <div class="popup-text">
-                I'm a cool guy born in Buenos Aires, Argentina
-                but my whole family is originally from <strong>Uruguay</strong>, <br>
-                which made me from the very beginning an <em>open and diverse man</em>. <br>
-                Lately I've discovered my passion for the world of
-                web development and sustentability. <br>
-                I dream of blending both fields one day. <br>
-                With Full-stack training, focused on back-end,
-                I'm now looking for a junior dev position <br>
-                to kick off my career and learn among professionals.
-            </div>
-        </div>
-        <div class="skills">
-            <div class="softskills">
-                <h3 id="text-skills">Soft Skills</h3>
-                <ul>
-                    <li>Communication skills</li>
-                    <li>Teamwork</li>
-                    <li>Self-learning</li>
-                    <li>Versatility</li>
-                    <li>Critical thinking</li>
-                    <li>Owning up to errors</li>
-                    <li>Empaty</li>
-                    <li>Negociation</li>
-                    <li>Open to receive feedback</li>
-                </ul>
-            </div>
-
-            <img src="assets/img/hard-skills-soft-skills.jpg" alt="hard and soft skills" id="hard-soft">
-            <div class="hardskills">
-                <h3 id="text-skills">Hard Skills</h3>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>TypeScript</li>
-                    <li>NodeJS</li>
-                    <li>Angular</li>
-                    <li>Java</li>
-                    <li>React</li>
-                    <li>Git</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-
-    <section class="page-contact" id="contact">
-        <div class="contact-container">
-
-            <div class="central-col">
-
-                <h1>Contact me</h1>
-
-                <form id="contact-form" action="https://formspree.io/f/xqkjqzzj" method="POST">
-                    <label for="name">Full name</label>
-                    <input type="text" id="name" name="name" placeholder="Your Full Name" required>
-                    <label for="email">Email Address</label>
-                    <input type="email" id="email" name="email" placeholder="Your Email Address" required>
-                    <label for="message">Message</label>
-                    <textarea rows="6" placeholder="Your Message" id="message" name="message" required></textarea>
-                    <button type="submit" id="submit" name="submit">Send</button>
-
-                </form>
-                <div id="error"></div>
-                <div id="success-msg"></div>
-            </div>
-        </div>
-        <script src="script.js"></script>
-    </section>
+        </footer>
 </body>
 
-<!-- Copyright Section-->
-
-</footer>
-<div class="foooter">
-    &copy;<span>2022 - 2023</span>
-    <span class="author" itemprop="copyrightHolder">
-        &nbsp;
-        <a href="https://diemartinez.com/">Die Martinez</a>
-    </span>
-    <span class="license">
-        &nbsp;|&nbsp;
-        <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>
-    </span>
-</div>
-</footer>
 
 </html>

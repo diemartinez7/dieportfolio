@@ -20,12 +20,8 @@
     --z-fixed: 100;
 }
 
-@media screen and (min-width: 768px) {
-    :root {
-        --normal-font-size: 1rem;
-        --small-font-size: .875rem;
-    }
-}
+
+
 
 /* Body */
 *,
@@ -79,6 +75,7 @@ img {
 }
 
 /* Header */
+
 .header {
     width: 100%;
     height: var(--header-height);
@@ -111,21 +108,6 @@ img {
 
 
 /* Nav */
-@media screen and (max-width: 768px) {
-    .nav {
-        position: fixed;
-        top: 0;
-        left: -100%;
-        background-color: var(--dark-color);
-        color: var(--white-color);
-        width: 100%;
-        height: 100vh;
-        padding: 1.5rem 0;
-        z-index: var(--z-fixed);
-        -webkit-transition: .5s;
-        transition: .5s;
-    }
-}
 
 .nav__content {
     height: 100%;
@@ -297,12 +279,7 @@ img {
     }
 }
 
-@media screen and (min-width: 1024px) {
-    .bd-grid {
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
+
 
 h2 {
     font-family: Arial, Helvetica, sans-serif;
@@ -355,7 +332,6 @@ h2 {
     font-weight: 600;
     position: relative;
     color: #0A370A;
-
 }
 
 .text::before {
@@ -656,8 +632,107 @@ button:active {
     color: #B4E194;
     text-align: center;
     font-size: .875rem;
-  }
+}
 
-  a {
+a {
     color: #B4E194;
-  }
+}
+
+/* Responsive */
+
+/* Phone */
+
+@media screen and (max-width: 768px) {
+
+    .nav__perfil {
+        display: none;
+    }
+
+    .nav__menu {
+        display: none;
+    }
+
+    .nav__content {
+        max-height: 40px;
+    }
+
+    .avatar {
+        padding: 0 0 0 70px;
+    }
+
+    .middle {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+    }
+
+    .text {
+        font-size: 32px;
+        font-weight: 600;
+        position: absolute;
+        color: #C0DDC0;
+    }
+
+
+
+    .home-description {
+        position: absolute;
+        top: 57%;
+        left: 27%;
+        transform: translate(-40%, -80%);
+        font-size: 14px;
+        padding-left: 300px;
+    }
+
+    .minion {
+        display: none;
+    }
+
+    .popup-text {
+        font-size: 10px;
+        line-height: 15px;
+        display: inline-block;
+
+    }
+
+    .skills {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .hardskills {
+        width: 130px;
+    }
+
+    .softskills {
+        width: 130px;
+    }
+
+    #text-skills {
+        font-size: 14px;
+    }
+
+    #hard-soft {
+        display: none;
+    }
+
+    .central-col {
+        width: 300px;
+        height: 300px;
+        padding: 1rem 1rem;
+    }
+
+    .central-col h1 {
+        font-size: 14px;
+    }
+
+    .contact-container {
+        width: 300px;
+        height: 300px;
+        background: var(--bg-color);
+
+    }
+
+
+
+    /* Tablet */
